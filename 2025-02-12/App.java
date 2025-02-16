@@ -40,7 +40,6 @@ public class App {
         System.out.println("\n" + cart.getContents());
         System.out.println(String.format("Preco total: R$%.2f", cart.getTotalPrice()));
         System.out.println(String.format("Quantidade de itens: %d\n", cart.getItemsCount()));
-
         System.out.println(String.format("Id do cliente: %d", cart.getCustomerId()));
     }
 }

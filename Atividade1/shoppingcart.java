@@ -13,7 +13,7 @@ public class ShoppingCart {
     }
     public void removeProduct(Product product) {
         productList.remove(product);
-    }
+    } 
     public String getContents() {
         StringBuilder contents = new StringBuilder("Shopping Cart Contents:\n");
         for (Product product : productList) {
